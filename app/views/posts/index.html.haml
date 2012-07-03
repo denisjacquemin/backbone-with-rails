@@ -1,0 +1,7 @@
+#posts
+:javascript
+  $(function() {
+    // Blog is the app name
+    window.router = new BackboneWithRails.Routers.PostsRouter({posts: #{@posts.to_json.html_safe}});
+    Backbone.history.start({pushState: false});
+  });
