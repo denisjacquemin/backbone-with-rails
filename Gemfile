@@ -25,6 +25,7 @@ gem 'jquery-rails'
 gem "twitter-bootstrap-rails"
 gem 'haml'
 gem "rails-backbone"
+gem "rake", "0.8.7" # Rake 0.9 broke Rails
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
