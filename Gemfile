@@ -22,7 +22,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem "twitter-bootstrap-rails"
+gem "twitter-bootstrap-rails", :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'haml'
 gem "rails-backbone"
 gem "rake", "0.8.7" # Rake 0.9 broke Rails
